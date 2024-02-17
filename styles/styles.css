@@ -11,3 +11,45 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+
+/* banner section */
+header {
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url('../resources/Banner_Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.banner-container {
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    border-radius: 16px;
+
+}
+
+.banner {
+    text-align: center;
+    padding: 177px 344px;
+}
+
+.banner h4 {
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.banner h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
