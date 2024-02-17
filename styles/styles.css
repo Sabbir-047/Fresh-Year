@@ -12,6 +12,32 @@
     font-style: normal;
 }
 
+/* primary text */
+.text-primary {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* secondary-text */
+.text-secondary {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+/* third-text */
+.text-third {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
 
 /* banner section */
 header {
@@ -47,9 +73,41 @@ header {
     margin-bottom: 16px;
 }
 
-.banner h1 {
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
+
+
+
+/* main section */
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-bottom: 120px;
+}
+
+
+/* categories section */
+
+.category-description {
+    text-align: center;
+}
+
+.category-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+}
+
+.category-description p{
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.category-image{
+    max-width: 802px;
+    margin: 0 auto;
+    padding-top: 48px;
 }
