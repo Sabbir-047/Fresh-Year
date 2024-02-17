@@ -273,7 +273,7 @@ main section {
     line-height: 22px;
 }
 
-.email-subscribe input[type="button"] {
+.email-subscribe button {
     padding: 24px 56px;
     border: none;
     border-radius: 0px 50px 50px 0px;
@@ -283,6 +283,72 @@ main section {
     line-height: 24px;
     color: #FFFFFF;
     position: relative;
+    cursor: pointer;
     left: -5px;
     top: 1px;
+}
+
+
+
+
+/* footer section */
+footer {
+    background: rgb(7, 2, 17);
+    color: #FFFFFF;
+}
+
+.footer-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 49px;
+    border-bottom: 1px solid gray;
+}
+
+.first-row,
+.third-row p {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.second-row {
+    padding: 49px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-bottom: 1px solid gray;
+}
+
+.second-row img {
+    border: 1px dashed rgb(80, 78, 78);
+}
+
+.second-row,
+.third-row a {
+    text-decoration: none;
+}
+
+.third-row {
+    padding-top: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row a {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
 }
