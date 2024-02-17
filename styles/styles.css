@@ -168,7 +168,7 @@ main section {
     padding: 100px 385px;
 }
 
-.party-place-info span{
+.party-place-info span {
     color: #FF0000;
 }
 
@@ -179,6 +179,49 @@ main section {
     line-height: 56px;
 }
 
-.party-place-info button{
+.party-place-info button {
     margin-top: 48px;
+}
+
+
+
+
+/* Portfolio Section */
+.portfolio-description {
+    margin-bottom: 48px;
+}
+
+.portfolio-description h2 {
+    margin: 20px 0px;
+}
+
+.portfolio-description p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    text-align: left;
+}
+
+
+/* portfolio-card-container */
+.portfolio-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-card{
+    width: 424px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 1px 5px 15px 1px #c5a488;
+}
+
+.portfolio-card:hover{
+    box-shadow: 1px 2px 25px 2px #7e5c3e;
+    transform: rotate(-2deg);
+    transition: .4s ease-in-out;
 }
