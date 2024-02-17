@@ -148,7 +148,37 @@ main section {
     color: #FFFFFF;
 }
 
-.party-info{
+.party-info {
     margin-top: 24px;
     margin-bottom: 48px;
+}
+
+
+
+/* Party place info */
+.party-place-container {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.party-place-info {
+    /* width: 549px;
+    margin: 0 auto; */
+    text-align: center;
+    padding: 100px 385px;
+}
+
+.party-place-info span{
+    color: #FF0000;
+}
+
+.party-place-info h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.party-place-info button{
+    margin-top: 48px;
 }
