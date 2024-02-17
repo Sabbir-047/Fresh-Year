@@ -14,7 +14,7 @@
 
 /* primary text */
 .text-primary {
-    font-family: Merriweather;
+    font-family: "Merriweather Sans", sans-serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -23,7 +23,7 @@
 /* secondary-text */
 .text-secondary {
     color: rgb(7, 2, 17);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -32,11 +32,26 @@
 /* third-text */
 .text-third {
     color: rgb(255, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
 }
+
+.btn-primary {
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
 
 
 /* banner section */
@@ -66,7 +81,7 @@ header {
 }
 
 .banner h4 {
-    font-family: Merriweather;
+    font-family: "Merriweather Sans", sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
@@ -95,19 +110,45 @@ main section {
 
 .category-title {
     color: rgb(255, 0, 0);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
 }
 
-.category-description p{
+.category-description p {
     margin-top: 48px;
     margin-bottom: 16px;
 }
 
-.category-image{
+.category-image {
     max-width: 802px;
     margin: 0 auto;
     padding-top: 48px;
+}
+
+
+/* Party Section */
+.party-container {
+    background-image: url('../resources/Mid_Party.jpg');
+    border-radius: 16px;
+}
+
+.party-background {
+    background: linear-gradient(90deg, rgb(134, 40, 78), rgba(7, 2, 17, 0) 100%);
+    border-radius: 16px;
+}
+
+.party-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 39.17px;
+    padding: 68px 125px;
+    color: #FFFFFF;
+}
+
+.party-info{
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
